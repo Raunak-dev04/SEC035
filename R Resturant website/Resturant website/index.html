@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <style>
+        body {
+            background-color:rgb(177, 177, 53);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+
+        nav a:hover {
+            background-color: #3498db;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            width: 100%;
+            bottom: 100;
+        }
+
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+        }
+
+        .menu-item {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            width: 250px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .menu-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .menu-item .price {
+            font-weight: bold;
+            color: #e74c3c;
+        }
+
+        .menu-item a {
+            display: inline-block;
+            margin-top: 10px;
+            color: #3498db;
+            text-decoration: none;
+            border: 1px solid #3498db;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Etsy Restaurant</h1>
+        <p>Your favorite place for tasty meals!</p>
+    </header>
+
+    <nav>
+        <a href="about.html">About</a>
+        <a href="book.html">Book</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <div class="container">
+        <h2>Our Menu</h2>
+
+        <div class="menu">
+            <div class="menu-item">
+                <h3>1. Raj Kachori</h3>
+                <img src="Raj-Kachori-1300x867.jpg" alt="Raj Kachori" width="200" height="200">
+                <p>A classic kachori with creamy sauce, pancetta, and Parmesan cheese.</p>
+                <p class="price">Rs.320/-</p>
+                <a href="rajkachori.html">View Details</a>
+            </div>
+            <div class="menu-item">
+                <h3>2. Margherita Pizza</h3>
+                <img src="PIZZA-MARGHERITA.jpg" alt="Margherita Pizza" width="200" height="200">
+                <p>A fresh pizza with mozzarella cheese, tomatoes, and basil leaves.</p>
+                <p class="price">Rs.220/-</p>
+                <a href="pizza.html">View Details</a>
+            </div>
+            <div class="menu-item">
+                <h3>3. Grilled Salad</h3>
+                <img src="grilled-chicken-salad-hero.jpg" alt="Grilled Salad" width="200" height="100">
+                <p>A healthy salad with grilled, mixed greens, and a tangy vinaigrette.</p>
+                <p class="price">Rs.360/-</p>
+                <a href="salad.html">View Details</a>
+            </div>
+            <div class="menu-item">
+                <h3>4. Cheeseburger</h3>
+                <img src="GreatAmericanBurger__FillWzExNzAsNTgzXQ.jpg" alt="Cheeseburger" width="200" height="400">
+                <p>A juicy beef burger with melted cheese, lettuce, and tomato, served with fries.</p>
+                <p class="price">Rs.440/-</p>
+                <a href="burger.html">View Details</a>
+            </div>
+            <div class="menu-item">
+                <h3>5. Vegetable Stir Fry</h3>
+                <img src="images.jpg" alt="Vegetable Stir Fry" width="200" height="200">
+                <p>A flavorful stir fry with fresh vegetables and a savory soy sauce.</p>
+                <p class="price">Rs.150/-</p>
+                <a href="vegetablefry.html">View Details</a>
+            </div>
+            <div class="menu-item">
+                <h3>6. Chocolate Cake</h3>
+                <img src="GJ7uCwGiteTF24HTWBclkziVTdhpQeZWH23MvQfq.jpeg" alt="Chocolate Cake" width="200" height="200">
+                <p>A rich and moist chocolate cake with a decadent frosting.</p>
+                <p class="price">Rs.500/-</p>
+                <a href="choclatecake.html">View Details</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 Decant Restaurant | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
